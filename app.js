@@ -9,6 +9,7 @@ const last = Number(prompt("Masukkan angka akhir: ")); // Meminta input angka ya
 
 
 const numThreads = 4; // Pendefinisian banyak thread yang ingin digunakan.
+console.log(`Thread yang digunakan: ${numThreads}`)
 
 let total = 0; // Menampung hasil penjumlahan secara global.
 
